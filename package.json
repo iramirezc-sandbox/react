@@ -1,0 +1,22 @@
+{
+  "name": "react-sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox workspace to play around with React.js",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iramirezc-sandbox/react.git"
+  },
+  "keywords": [],
+  "author": "Isaac Ramirez <iramirezc@live.com.mx>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iramirezc-sandbox/react/issues"
+  },
+  "homepage": "https://github.com/iramirezc-sandbox/react#readme",
+  "private": "true",
+  "workspaces": [
+    "examples/custom-toolchain"
+  ]
+}
