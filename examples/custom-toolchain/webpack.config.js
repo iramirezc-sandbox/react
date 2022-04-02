@@ -31,7 +31,6 @@ module.exports = {
     },
     port: 8001,
     hot: true,
-    open: true,
   },
   plugins: [
     new HTMLWebpackPlugin({
