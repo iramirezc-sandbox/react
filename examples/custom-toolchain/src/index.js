@@ -1,4 +1,7 @@
-// TODO: React App entry point
-import { square } from "./utils";
+import React from "react";
+import * as ReactDOM from "react-dom/client";
+import App from "./App";
 
-console.log(`square(2) = ${square(2)}`);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<App />);
