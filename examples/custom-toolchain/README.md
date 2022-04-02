@@ -29,3 +29,4 @@ yarn workspace custom-toolchain start
 - [Configuration | Webpack](https://webpack.js.org/configuration/)
 - [App Generator | CreateApp.dev](https://createapp.dev/webpack)
 - [Asset Modules | Webpack](https://webpack.js.org/guides/asset-modules/)
+- [Resolve Alias | Webpack](https://webpack.js.org/configuration/resolve/#resolvealias)

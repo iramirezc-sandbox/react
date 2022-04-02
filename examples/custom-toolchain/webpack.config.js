@@ -28,7 +28,13 @@ module.exports = {
       },
     ],
   },
-  resolve: { extensions: ["*", ".js", ".jsx"] },
+  resolve: {
+    extensions: ["*", ".js", ".jsx"],
+    alias: {
+      css: path.resolve(__dirname, "public/css"),
+      img: path.resolve(__dirname, "public/img"),
+    },
+  },
   devServer: {
     static: {
       directory: path.join(__dirname, "public"),

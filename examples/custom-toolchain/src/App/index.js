@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { square } from "../utils";
-import logo from "../../public/img/react-logo.png";
+import logo from "img/react-logo.png";
 import "./styles.css";
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="app-container">
         <h1>
-          Hello from <span>React</span>!
+          Hello from <span>React!</span>
         </h1>
         <img src={logo} height={100} alt="React logo" />
         <pre>
