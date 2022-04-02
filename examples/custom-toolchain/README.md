@@ -12,3 +12,5 @@ Run `yarn install` from the `react` directory.
 
 - [Creating a custom Toolchain from Scratch | React](https://reactjs.org/docs/create-a-new-react-app.html#creating-a-toolchain-from-scratch)
 - [Creating a React App from Scratch | Jedai Saboteur | Medium](https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658)
+- [Configuration | Webpack](https://webpack.js.org/configuration/)
+- [Create App Generator](https://createapp.dev/webpack)
