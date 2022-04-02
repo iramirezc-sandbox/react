@@ -2,11 +2,25 @@
 
 ## Purpose
 
-Understand how to create a React app using a custom toolchain from scratch without using the `create-react-app` boilerplate.
+Understand how to create a React app using a custom toolchain from scratch without using the [Create React App](https://github.com/facebook/create-react-app).
 
 ## Installation
 
-Run `yarn install` from the `react` directory.
+Run `yarn install`.
+
+## Webpack
+
+Start the dev server (from the workspace folder):
+
+```sh
+yarn start
+```
+
+or (from the root folder):
+
+```sh
+yarn workspace custom-toolchain start
+```
 
 ## Sources
 
