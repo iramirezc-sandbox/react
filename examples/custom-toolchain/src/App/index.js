@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { square } from "../utils";
+import logo from "../../public/img/react-logo.png";
 import "./styles.css";
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
         <h1>
           Hello from <span>React</span>!
         </h1>
+        <img src={logo} height={100} alt="React logo" />
         <pre>
           <code>square(2) = {square(2)}</code>
         </pre>

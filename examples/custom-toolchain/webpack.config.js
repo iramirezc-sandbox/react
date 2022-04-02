@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
-    // TODO: how to configure publicPath?
+    assetModuleFilename: "img/[hash][ext][query]",
   },
   module: {
     rules: [
@@ -21,6 +21,10 @@ module.exports = {
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.png$/,
+        type: "asset/resource",
       },
     ],
   },
