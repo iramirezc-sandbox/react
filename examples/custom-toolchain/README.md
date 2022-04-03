@@ -1,8 +1,8 @@
-# React with a custom Toolchain from Scratch
+# React with a custom Toolchain (Babel & Webpack) from Scratch
 
 ## Purpose
 
-Understand how to create a React app using a custom toolchain from scratch without using the [Create React App](https://github.com/facebook/create-react-app).
+Understand how to create a React app using a custom toolchain (Babel & Webpack) from scratch without using the [Create React App](https://github.com/facebook/create-react-app).
 
 ## Installation
 
